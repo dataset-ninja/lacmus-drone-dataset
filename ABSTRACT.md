@@ -1,0 +1,3 @@
+The authors of **LADD** dataset, developed by non-profit search and rescue volunteer organizations with a focus on locating missing individuals, collected the data using drones and employed machine learning tools for labeling. These images were captured from an altitude of 40-50 meters above the ground, and they portray individuals in different poses. 
+
+In total, the dataset comprises 1365 images, and the annotations for LADD are accessible in VOC format, specifically using Xmax, Ymax, Xmin, Ymin coordinates, as well as in YOLO format, using XYWH values.

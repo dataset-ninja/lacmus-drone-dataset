@@ -34,7 +34,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/mersico/lacmus-drone-dataset-ladd-v40"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 6763279
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/lacmus-drone-dataset"
@@ -56,9 +56,8 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = None
-
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
+AUTHORS: Optional[List[str]] = ['Mikhail Shuranov', 'Denis Shurenkov', 'Dmitry Ruzhitsky','Victoria Martynova', 'Ekaterina Bykova', 'Georgy Perevozchikov']
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Lacmus"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
