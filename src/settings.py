@@ -56,7 +56,7 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ['Mikhail Shuranov', 'Denis Shurenkov', 'Dmitry Ruzhitsky','Victoria Martynova', 'Ekaterina Bykova', 'Georgy Perevozchikov']
+AUTHORS: Optional[List[str]] = ["Mikhail Shuranov", "Denis Shurenkov", "Dmitry Ruzhitsky", "Victoria Martynova", "Ekaterina Bykova", "Georgy Perevozchikov"]
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Lacmus"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
