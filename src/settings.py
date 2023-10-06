@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.GNU_GPL_v3()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.Geospatial()]
-CATEGORY: Category = Category.Drones()
+CATEGORY: Category = Category.Safety(extra=[Category.Aerial(), Category.Drones()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -52,7 +52,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
-BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = "https://habr.com/ru/companies/ods/articles/483616/"
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
