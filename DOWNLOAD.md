@@ -1,6 +1,6 @@
 Dataset **LADD** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/p/H/Mw/p6EglswVMHnS60FVSbURKQP1yhgbDGQ9LWjRm0UucgO4ZQBFHI9aBtWJwOcBY8aZoFRsIgfgbv9XC3dSQPnmEGV8wY6ljNdjtTGCpEOiWvPtXNAR5khKEjpcmkKk.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash

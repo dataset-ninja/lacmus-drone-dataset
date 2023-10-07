@@ -15,13 +15,13 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "LADD"
 PROJECT_NAME_FULL: str = "LADD: Lacmus Drone Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.GNU_GPL_v3()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.Geospatial()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SearchAndRescue()]
 CATEGORY: Category = Category.Safety(extra=[Category.Aerial(), Category.Drones()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
