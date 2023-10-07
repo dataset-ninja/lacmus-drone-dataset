@@ -57,7 +57,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Mikhail Shuranov", "Denis Shurenkov", "Dmitry Ruzhitsky", "Victoria Martynova", "Ekaterina Bykova", "Georgy Perevozchikov"]
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Lacmus"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Lacmus Project, Russia"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
