@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "LADD"
+PROJECT_NAME: str = "LADD: Lacmus Drone Dataset"
 PROJECT_NAME_FULL: str = "LADD: Lacmus Drone Dataset"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
@@ -53,12 +53,14 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = "https://habr.com/ru/companies/ods/articles/483616/"
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/lacmus-foundation/ladd-utils"}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Mikhail Shuranov", "Denis Shurenkov", "Dmitry Ruzhitsky", "Victoria Martynova", "Ekaterina Bykova", "Georgy Perevozchikov"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://gosha20777.github.io/", "gosha20777@live.ru", ""]
+
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Lacmus Project, Russia"
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://github.com/lacmus-foundation"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
@@ -109,6 +111,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
