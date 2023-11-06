@@ -57,7 +57,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https:/
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Mikhail Shuranov", "Denis Shurenkov", "Dmitry Ruzhitsky", "Victoria Martynova", "Ekaterina Bykova", "Georgy Perevozchikov"]
-AUTHORS_CONTACTS: Optional[List[str]] = ["https://gosha20777.github.io/", "gosha20777@live.ru", ""]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://gosha20777.github.io/", "gosha20777@live.ru"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Lacmus Project, Russia"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://github.com/lacmus-foundation"
