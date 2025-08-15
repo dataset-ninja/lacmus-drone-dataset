@@ -1,6 +1,6 @@
 Dataset **LADD: Lacmus Drone Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI0NzNfTEFERDogTGFjbXVzIERyb25lIERhdGFzZXQvbGFkZDotbGFjbXVzLWRyb25lLWRhdGFzZXQtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiVEN5anZlU2p4ZzQvVFFxNXBaREJSNStJQmVlRm9GVktheVJwYXI3UlJoND0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjQ3M19MQUREOiBMYWNtdXMgRHJvbmUgRGF0YXNldC9sYWRkOi1sYWNtdXMtZHJvbmUtZGF0YXNldC1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJZaTRjaEhjVWM0V3J4R1NhajdVd1pPUmpSMkVtY1dMOUhFcUMybkJKMXM4PSJ9?response-content-disposition=attachment%3B%20filename%3D%22ladd%3A-lacmus-drone-dataset-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
